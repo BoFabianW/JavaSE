@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="json-3.0.0.wso2v1">
+    <CLASSES>
+      <root url="jar://$APPLICATION_HOME_DIR$/lib/json-3.0.0.wso2v1.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/lib/json-20140107.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
