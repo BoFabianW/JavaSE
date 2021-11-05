@@ -7,14 +7,11 @@ package JSON;
  * JSON muss über 'Global Labraries' der Projekteigenschaften importiert werden!
  */
 
-public class MainJson {
+public class Main {
 
     public static void main(String[] args) {
 
-        JsonDatei.dateiLesen();
         JsonDatei.dateiSchreiben();
-
-        //JsonBuilder.JsonSchreiben();
-
+        JsonDatei.dateiLesen();
     }
 }
