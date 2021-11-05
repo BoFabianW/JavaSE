@@ -5,12 +5,11 @@ package TreeMap;
  *  Bei der Ausgabe einer TreeMap wird diese grundsätzlich sortiert ausgegeben.
  *  Eine TreeMap akzeptiert keine Duplikate! Ein vorhandener Key wird ersetzt.
  */
-
 public class TreeMap {
 
     public static void treeMapDemo() {
 
-        // Hier wird eine String-ArrayList erstellt.
+        // Hier wird eine String-TreeMap erstellt.
         java.util.TreeMap<String, String> name = new java.util.TreeMap<>();
 
         name.put("Max", "Muster");
