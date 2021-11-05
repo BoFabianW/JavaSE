@@ -1,0 +1,15 @@
+{
+
+	"name":"Fabian",
+	"age":39,
+	"movie": {
+		"comedy":"Bud Spencer",
+		"oldie":"Louis De Funes",
+		"action":"Schwarzenegger"
+		},
+	"cars": [
+		{ "name":"Ford", "models":["Fiesta", "Focus", "Mustang"] },
+		{ "name":"BMW", "models":["3er", "5er", "2er"] },
+		{ "name":"Fiat", "models":["500", "Panda"] }
+		]
+}
