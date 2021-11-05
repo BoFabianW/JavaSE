@@ -8,9 +8,7 @@ public class BenachrichtigungsObjekt {
         stop = true;
     }
 
-
     public synchronized void weiter() {
         stop = false;
-
     }
 }

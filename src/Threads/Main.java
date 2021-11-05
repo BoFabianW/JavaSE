@@ -4,12 +4,12 @@ package Threads;
  * Durch ein Thread können Operationen gleichzeitig ausgeführt werden
  */
 
-public class MainThreads {
+public class Main {
 
     public static void main(String[] args) throws InterruptedException {
 
-        Thread ta = new Thread(new ThreadAddieren());
-        Thread ta2 = new Thread(new ThreadAddieren());
+        Thread ta = new Thread(new ThreadTest());
+        Thread ta2 = new Thread(new ThreadTest());
 
         ta.start();
 //        // Mit der Funktion 'join' wird die Methode angewiesen auf Beendigung zu warten bevor die nächste Methode startet.
