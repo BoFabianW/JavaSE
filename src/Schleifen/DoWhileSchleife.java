@@ -5,37 +5,29 @@ public class DoWhileSchleife {
     // In dieser Methode werden beide Schleifen nacheinander verwendet
     public static void doWhileSchleife() {
 
+        System.out.println("AUSGABE EINFACHE FOR-EACH-SCHLEIFE --- AUSGABE BIS -35");
 
-        // Hier wird eine Variable "zahl" deklariert und mit dem Wert "-50" initialisiert
         int zahl = -50;
 
-        System.out.println("\nAufgabe mit Verwendung der While-Schleife\n");
-        System.out.println(zahl);
-
-        /*
-         Als erstes wird eine While-Schleife verwendet.
-         Es werden alle Zahlen von -50 bis -35 auf der Konsole ausgegeben.
-         */
+        // While-Schleifen prüfen erst die Bedingung und werden danach gegebenenfalls ausgeführt.
         while (zahl <= -35) {
 
-            System.out.println(zahl);
+            System.out.print(zahl + ", ");
             zahl++;
-
         }
 
         // Hier wird die Variable "zahl" wieder auf den Wert "-50" gesetzt
         zahl = -50;
 
-        System.out.println("\n\n------------------------------------------\n");
-        System.out.println("Aufgabe mit Verwendung der Do-While-Schleife\n");
+        System.out.println("\n-----------------------------------------------------------------------\n");
+        System.out.println("AUSGABE EINFACHE FOR-EACH-SCHLEIFE --- AUSGABE BIS -35");
 
-        /*
-         Als zweites wird eine Do-While-Schleife verwendet.
-         Es werden alle Zahlen von -50 bis -35 auf der Konsole ausgegeben.
-         */
+        // do-while-Schleifen werden erst einmal durchlaufen und dann wird für einen eventuellen weiteren Druchlauf die Bedingung geprüft.
         do {
-            System.out.println(zahl);
+            System.out.print(zahl + ", ");
             zahl = zahl + 1;
         } while (zahl < -34);
+
+        System.out.println("\n-----------------------------------------------------------------------\n");
     }
 }
